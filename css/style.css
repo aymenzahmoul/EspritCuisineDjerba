@@ -113,11 +113,11 @@ h6,
 
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
-    padding: 30px 0;
+    padding: 30px 10px;
     color: var(--dark);
-    font-weight: 500;
-    text-transform: uppercase;
-    outline: none;
+    font-weight: 600;
+    
+   
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -159,7 +159,12 @@ h6,
         opacity: 1;
     }
 }
-
+.coleurs{
+    color: white;
+}
+.iconimg{
+    height: 50px;
+}
 
 /*** Header ***/
 .owl-carousel-inner {
@@ -189,6 +194,16 @@ h6,
     .header-carousel .owl-carousel-item p {
         font-size: 16px !important;
     }
+}
+.gerant{
+    height: 400px;
+   width: 100%;
+}
+.size{
+    height: 55px;
+}
+.sizeimage{
+    height: 795px;
 }
 
 .header-carousel .owl-dots {
@@ -232,7 +247,7 @@ h6,
 }
 
 .page-header {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/carousel-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/esprit/covertire.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -314,11 +329,11 @@ h6,
 
 /*** Service ***/
 .service-item .bg-img {
-    position: absolute;
+    margin: 20px;
     width: 100%;
-    height: 100%;
+    height: 300px;
     object-fit: cover;
-    z-index: -1;
+   
 }
 
 .service-item .service-text {
@@ -326,9 +341,7 @@ h6,
     transition: .5s;
 }
 
-.service-item:hover .service-text {
-    background: rgba(0, 0, 0, .7);
-}
+
 
 .service-item * {
     transition: .5;
